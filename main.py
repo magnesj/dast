@@ -6,7 +6,7 @@ pygame.init()
 
 # Set up the window
 width, height = 640, 480
-screen = pygame.display.set_mode((width, height))
+screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
 pygame.display.set_caption("Pygame Example")
 
 # Set up colors
